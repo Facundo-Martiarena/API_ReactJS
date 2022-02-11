@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+  
+  .row{
+    height: min-content;
+    
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+    
+  }
+
+
+
+
+  
+  .header {
+    background-color: #c6c4c5;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: #fe1818;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    height:50px
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+a{
+  text-decoration: none;
+}
+  @media only screen and (max-width: 379px){
+      /* for cellphone */
+    
+    .col-c-1 {width: 8.33%;}
+    .col-c-2 {width: 16.66%;}
+    .col-c-3 {width: 25%;}
+    .col-c-4 {width: 33.33%;}
+    .col-c-5 {width: 41.66%;}
+    .col-c-6 {width: 50%;}
+    .col-c-7 {width: 58.33%;}
+    .col-c-8 {width: 66.66%;}
+    .col-c-9 {width: 75%;}
+    .col-c-10 {width: 83.33%;}
+    .col-c-11 {width: 91.66%;}
+    .col-c-12 {width: 100%;
+      text-align: center}
+    .row{
+        height: 700px!important;
+        display: initial;
+    }
+    .image-initial {
+        height:auto;
+        width: 95%;
+        text-align: center;
+      margin-bottom: 200px;
+    }
+  }
+
+  @media only screen and (min-width: 380px) and (max-width: 775px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;
+    margin-left: 15px!important;}
+    .col-s-6 {width: 50%;
+     
+    }
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;
+        text-align: center}
+    .row{height: 1300px}
+    .image-initial {
+        height:300px;
+        text-align: center;
+    }
+  }
+  @media only screen and (min-width: 776px) and (max-width: 1400px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .row{height: 1050px;}
+    .image-initial {
+        height: 50%;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 1401px) {
+    /* For monitor: */
+    .col-x-1 {width: 8.33%;}
+    .col-x-2 {width: 16.66%;}
+    .col-x-3 {width: 25%;}
+    .col-x-4 {width: 33.33%;}
+    .col-x-5 {width: 41.66%;
+      margin-left: 75px!important;  
+    }
+    .col-x-6 {width: 50%;
+      margin-left: 100px;
+    }
+    .col-x-7 {width: 58.33%;}
+    .col-x-8 {width: 66.66%;}
+    .col-x-9 {width: 75%;}
+    .col-x-10 {width: 83.33%;}
+    .col-x-11 {width: 91.66%;}
+    .col-x-12 {width: 100%;}
+    .row{height: 1000px;}
+    .image-initial {
+        height: 70%;
+        margin-left: 100px;
+        margin-top: 20px;
+        text-align: center;
+    }
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+  .text-secondary{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: white!important;
+  }
+
+  .text-title{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: black!important;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+.video-item{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.background-detail{
+  background: linear-gradient(
+    to bottom right,
+    #6889FF, #C668FF
+  )
+}
+
+.description{
+  background-color:#c6c4c545 ;
+  color: black !important;
+  text-decoration: none;
+}
+
+.video-list{
+  border: 3px solid red;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.video-item2{
+  border: 3px solid red;
+  margin-left: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px; 
+}
