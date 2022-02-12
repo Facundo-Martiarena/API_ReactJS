@@ -22,11 +22,3 @@ Para poder acceder a la información se utilizo la API de Youtube. De esta maner
 ### DEMO :arrow_forward:
 
 Para visualizar la aplicación se puede entrar [aquí](https://appyoutubecds.netlify.app/)
-
-## AUTORA ✒️
-
-Agustina Marrero    
-Estudiante de Ingeniería en Sistemas en Universidad Católica del Uruguay. 
-
------
-¡Gracias por leer! :smile:
